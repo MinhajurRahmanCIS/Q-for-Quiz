@@ -3,7 +3,7 @@
 ## Project Name : `Q For Quiz`
 Project Deploy Site : https://luminous-puffpuff-e5bfd7.netlify.app/
 
-Project Repository Link : https://github.com/programming-hero-web-course2/b6-quiz-crackerz-RkzNew
+Project Repository Link :https://github.com/MinhajurRahmanCIS/Q-for-Quiz
 
 
 # Project Info
