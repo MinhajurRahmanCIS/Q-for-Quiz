@@ -1,0 +1,59 @@
+.quizTopic-container{
+    border: 1px solid gainsboro;
+    background-color: rgba(128, 128, 128, 0.336);
+}
+
+.quizTopic-container img{
+    height: 250px;
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.quiz-btn-container{
+    font-size: large;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgba(89, 182, 219, 0.863);
+    border: none;
+}
+.quiz-btn a{
+    text-decoration: none;
+    color: black;
+}
+.quiz-btn-container:hover{
+    background-color: rgba(92, 190, 121, 0.685);
+}
+
+
+
+@media screen and (max-width: 767px) {
+    
+    .quizTopic-container img{
+        height: 150px;
+        width: 150px;
+        padding: 10px;
+        margin: 20px;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .topic-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .topic-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
